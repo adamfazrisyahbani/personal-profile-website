@@ -1,0 +1,9 @@
+# File sementara Windows
+Thumbs.db
+Desktop.ini
+
+# File sementara sistem operasi
+.DS_Store
+
+# File log
+*.log
