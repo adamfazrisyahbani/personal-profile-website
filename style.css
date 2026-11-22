@@ -1,0 +1,89 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigasi */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #ffffff;
+}
+
+.logo {
+    color: #2563eb;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Halaman utama */
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #eff6ff;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.greeting {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 15px 0;
+}
+
+.description {
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Bagian lainnya */
+.about,
+.contact {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
+}
